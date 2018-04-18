@@ -4,7 +4,15 @@
              xmlns:local="clr-namespace:MenuToolbarStatusBar"
              StartupUri="BrushesWindow.xaml">
     <Application.Resources>
-        <Color x:Key="groenColor" A="255" R="0" G="255" B="0"/>
-        <SolidColorBrush x:Key="groenBrush" Color="{StaticResource groenColor}"/>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <Color x:Key="groenColor" A="255" R="0" G="255" B="0"/>
+                    <SolidColorBrush x:Key="groenBrush" Color="{StaticResource groenColor}"/>
+                </ResourceDictionary>
+                <ResourceDictionary Source="Resources/turquoise.xaml"/>
+                <ResourceDictionary Source="Resources/regenboog.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

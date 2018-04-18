@@ -80,6 +80,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Resources\regenboog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Resources\turquoise.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -122,6 +126,9 @@
     <Resource Include="img\preview.png" />
     <Resource Include="img\print.png" />
     <Resource Include="img\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\vdab.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
