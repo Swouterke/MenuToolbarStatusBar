@@ -1,0 +1,10 @@
+﻿<Application x:Class="MenuToolbarStatusBar.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MenuToolbarStatusBar"
+             StartupUri="BrushesWindow.xaml">
+    <Application.Resources>
+        <Color x:Key="groenColor" A="255" R="0" G="255" B="0"/>
+        <SolidColorBrush x:Key="groenBrush" Color="{StaticResource groenColor}"/>
+    </Application.Resources>
+</Application>
